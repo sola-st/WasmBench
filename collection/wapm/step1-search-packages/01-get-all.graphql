@@ -1,0 +1,12 @@
+# Query at https://registry.wapm.io/graphql#variables=null&operationName=undefined&query=%7B%0A%20%20recentPackageVersions%20%7B%0A%20%20%20%20edges%20%7B%0A%20%20%20%20%20%20node%20%7B%0A%20%20%20%20%20%20%20%20package%20%7B%0A%20%20%20%20%20%20%20%20%20%20name%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A
+{
+  recentPackageVersions {
+    edges {
+      node {
+        package {
+          name
+        }
+      }
+    }
+  }
+}
