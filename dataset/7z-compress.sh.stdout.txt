@@ -1,0 +1,30 @@
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,4 CPUs Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz (806E9),ASM,AES-NI)
+
+
+All:
+
+Scanning the drive:
+1 folder, 23416 files, 6811628533 bytes (6497 MiB)
+
+Creating archive: all-binaries-metadata.7z
+
+Items to compress: 23417
+
+Files read from disk: 23415
+Archive size: 1280293106 bytes (1221 MiB)
+Everything is Ok
+
+
+Filtered:
+
+Scanning the drive:
+1 folder, 8463 files, 5883073899 bytes (5611 MiB)
+
+Creating archive: filtered-binaries-metadata.7z
+
+Items to compress: 8464
+                                                                            
+Files read from disk: 8463
+Archive size: 1138113571 bytes (1086 MiB)
+Everything is Ok
