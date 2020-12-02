@@ -2,7 +2,7 @@
 
 A paper on this benchmark of WebAssembly binaries is currently under submission.
 
-You can find the full dataset of binaries and metadata under (releases)[https://github.com/sola-st/WasmBench/releases].
+You can find the full dataset of binaries and metadata under [releases](https://github.com/sola-st/WasmBench/releases).
 
 ## Overview
 
