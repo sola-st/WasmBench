@@ -1,6 +1,6 @@
 # WasmBench: A Dataset of Real-World WebAssembly Binaries
 
-A paper on this benchmark of WebAssembly binaries is currently under submission.
+This is the full dataset and code for our paper *An Empirical Study of Real-World WebAssembly Binaries: Security, Languages, Use Cases* at *The Web Conference 2021 (WWW ’21)*. A pre-print of the paper is available at [https://software-lab.org/publications/www2021.pdf](https://software-lab.org/publications/www2021.pdf), which gives an overview of our collection methodology and detailed results.
 
 You can find the full dataset of binaries and metadata under [releases](https://github.com/sola-st/WasmBench/releases).
 
