@@ -221,7 +221,7 @@ for hash, desc in data.items():
     #     languages.add('Rust')
     #     languages_methods.add('path components (openethereum)')
     # https://github.com/tree-sitter/tree-sitter/tree/18150a1573b3a97bf6773073e0dcdf0c062c9953/lib/binding_web
-    if any('tree-sitter' in file for file['absolute_path'] in desc['files']):
+    if any(('tree-sitter' in file['absolute_path']) for file in desc['files']):
         languages.add('C')
         languages_methods.add('path (tree sitter)')
 
@@ -292,6 +292,9 @@ for hash, desc in data.items():
     languages_methods_counts.update(languages_methods)
     languages_counts[tuple(sorted(languages))] += 1
 
+    languages = list(sorted(languages)).copy()
+    desc['possible_source_languages'] = languages
+
 print('Methods (combinations)')
 print_distribution(languages_methods_combinations_counts, total=len(data))
 print('Methods')
@@ -299,6 +302,9 @@ print_distribution(languages_methods_counts, total=len(data))
 print('Results')
 print_distribution(languages_counts, total=len(data))
 print()
+
+with open('filtered.pretty.with-languages.json', 'w') as outfile:
+    json.dump(data, outfile, indent=4)
 
 # for debugging...
 
