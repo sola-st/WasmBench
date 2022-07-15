@@ -1,8 +1,14 @@
 # WasmBench: A Dataset of Real-World WebAssembly Binaries
 
-This is the full dataset and code for our paper *An Empirical Study of Real-World WebAssembly Binaries: Security, Languages, Use Cases* at *The Web Conference 2021 (WWW ’21)*. A pre-print of the paper is available at [https://software-lab.org/publications/www2021.pdf](https://software-lab.org/publications/www2021.pdf), which gives an overview of our collection methodology and detailed results.
+This is a large dataset of **more than 8000 real-world WebAssembly binaries**, collected from **websites, GitHub, NPM, browser extensions**, and other sources.
+This collection can be useful to test WebAssembly-related tools, as training data for machine learning, or just to understand better how the language is used in practice.
+More details about the dataset, how we collected it, and analysis results of the binaries can be found in the publication **An Empirical Study of Real-World WebAssembly Binaries: Security, Languages, Use Cases** at *The Web Conference 2021 (WWW ’21)*. The paper is available at [https://software-lab.org/publications/www2021.pdf](https://software-lab.org/publications/www2021.pdf).
 
 You can find the full dataset of binaries and metadata under [releases](https://github.com/sola-st/WasmBench/releases).
+
+Specifically, an **archive with all collected binaries** and collected metadata (e.g., where the binary is from, source language, used WebAssembly extensions, etc.) is available here: **https://github.com/sola-st/WasmBench/releases/download/v1.0/all-binaries-metadata.7z**.
+
+A **filtered version of the dataset**, with 8461 unique binaries and their metadata is available here: **https://github.com/sola-st/WasmBench/releases/download/v1.0/all-binaries-metadata.7z**.
 
 ## Overview
 
