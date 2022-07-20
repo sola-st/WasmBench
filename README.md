@@ -8,7 +8,7 @@ You can find the full dataset of binaries and metadata under [releases](https://
 
 Specifically, an **archive with all collected binaries** and collected metadata (e.g., where the binary is from, source language, used WebAssembly extensions, etc.) is available here: **https://github.com/sola-st/WasmBench/releases/download/v1.0/all-binaries-metadata.7z**.
 
-A **filtered version of the dataset**, with 8461 unique binaries and their metadata is available here: **https://github.com/sola-st/WasmBench/releases/download/v1.0/all-binaries-metadata.7z**.
+A **filtered version of the dataset**, with 8461 unique binaries and their metadata is available here: **https://github.com/sola-st/WasmBench/releases/download/v1.0/filtered-binaries-metadata.7z**.
 
 ## Overview
 
